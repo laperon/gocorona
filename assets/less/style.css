@@ -1,0 +1,281 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+.wrapper {
+  max-width: 1152px;
+  margin: 0 auto;
+}
+[class*="__wrap"] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+[class*="__column"] {
+  flex: 1;
+}
+.header__bg {
+  background: #FAFBFD url("///Users/laperon/Documents/Html/GoCorona/assets/images/header-bg.svg") no-repeat;
+  background-position: right top;
+}
+.header {
+  padding-top: 37px;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-around;
+  font-family: Raleway;
+}
+.header__menu li a {
+  font-size: 10px;
+  padding: 0 40px;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.header__menu li a:hover {
+  color: rgba(2, 63, 255, 0.5);
+}
+.header__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  color: #000;
+  font-family: Rubik;
+  font-size: 44px;
+  font-weight: 700;
+}
+.title .highlighting__blue {
+  color: #4285F4;
+}
+.title .highlighting__red {
+  color: #EC5863;
+}
+.btn {
+  color: #fff;
+  padding: 12px 29px 16px 31px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 10px;
+  font-family: Raleway;
+  letter-spacing: 1.4px;
+  display: inline-flex;
+}
+.btn__blue {
+  background: #4285F4;
+}
+.btn__red {
+  background: #EC5863;
+}
+.take-care__wrap {
+  display: flex;
+  align-items: center;
+}
+.take-care__description {
+  margin-top: 12px;
+  margin-bottom: 38px;
+}
+.stay-safe__description {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+.stay-safe__column-wrap {
+  width: 379px;
+}
+p {
+  color: #616161;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.96px;
+}
+.popup {
+  font-family: Rubik;
+}
+.popup a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.popup__title {
+  color: #B0B0B0;
+  font-size: 13px;
+}
+.popup__label {
+  color: #000000;
+  font-size: 9px;
+}
+.talk-experts__description {
+  margin: 12px 0 24px;
+}
+.talk-experts__counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 16px;
+  background: #FFF;
+  box-shadow: 0px 2px 24px 0px rgba(88, 126, 236, 0.15);
+  width: 654px;
+  padding: 28px 81px;
+  margin: 0 auto;
+}
+.talk-experts__counter-item {
+  text-align: center;
+}
+.talk-experts__counter-item div:first-child {
+  color: #EC5863;
+  letter-spacing: 5.04px;
+  font-family: Rubik;
+  font-size: 36px;
+  font-weight: 700;
+}
+.talk-experts__counter-item div:nth-child(2) {
+  color: #000;
+  font-family: Rubik;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 4.07px;
+  text-transform: uppercase;
+}
+.talk-experts__popup {
+  position: relative;
+}
+.talk-experts__popup .play-btn {
+  position: absolute;
+  left: 44%;
+  top: 40%;
+}
+/*# sourceMappingURL=style.css.map */

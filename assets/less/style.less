@@ -1,0 +1,196 @@
+@import url("./reset.less");
+@import url("./media.less");
+@tmp_url: '///Users/laperon/Documents/Html/GoCorona';
+
+.wrapper {
+  max-width: 1152px;
+  margin: 0 auto;
+}
+
+[class*="__wrap"] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+[class*="__column"] {
+  flex: 1;
+}
+
+.header__bg {
+  background: #FAFBFD url("@{tmp_url}/assets/images/header-bg.svg") no-repeat;
+  background-position: right top;
+}
+
+.header {
+  padding-top: 37px;
+
+  &__menu {
+    display: flex;
+    justify-content: space-around;
+    font-family: Raleway;
+
+    li {
+      a {
+        font-size: 10px;
+        padding: 0 40px;
+        color: #000;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        &:hover {
+          color: rgba(2, 63, 255, 0.5);
+        }
+      }
+    }
+  }
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.title {
+  color: #000;
+  font-family: Rubik;
+  font-size: 44px;
+  font-weight: 700;
+
+  .highlighting {
+    &__blue {
+      color: #4285F4;
+    }
+    &__red {
+      color: #EC5863;
+    }
+  }
+}
+
+.btn {
+  color: #fff;
+  padding: 12px 29px 16px 31px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 10px;
+  font-family: Raleway;
+  letter-spacing: 1.4px;
+  display: inline-flex;
+
+  &__blue {
+    background: #4285F4;
+  }
+
+  &__red {
+    background: #EC5863;
+  }
+}
+
+.take-care {
+  &__wrap {
+    display: flex;
+    align-items: center;
+  }
+
+  &__description {
+    margin-top: 12px;
+    margin-bottom: 38px;
+  }
+}
+
+.stay-safe {
+  &__description {
+    margin-top: 12px;
+    margin-bottom: 24px;
+ }
+
+  &__column {
+    &-wrap {
+      width: 379px;
+    }
+  }
+}
+
+p {
+  color: #616161;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.96px;
+}
+
+.popup {
+  font-family: Rubik;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__title {
+    color: #B0B0B0;
+    font-size: 13px;
+  }
+
+  &__label {
+    color: #000000;
+    font-size: 9px;
+  }
+}
+
+.talk-experts {
+  &__description {
+    margin: 12px 0 24px;
+  }
+
+  &__counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 2px 24px 0px rgba(88, 126, 236, 0.15);
+    width: 654px;
+    padding: 28px 81px;
+    margin: 0 auto;
+
+    &-item {
+      text-align: center;
+
+      div:first-child {
+        color: #EC5863;
+        letter-spacing: 5.04px;
+        font-family: Rubik;
+        font-size: 36px;
+        font-weight: 700;
+      }
+
+      div:nth-child(2) {
+        color: #000;
+        font-family: Rubik;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 4.07px;
+        text-transform: uppercase;
+      }
+    }
+
+
+  }
+
+  &__popup {
+    position: relative;
+
+    .play-btn {
+      position: absolute;
+      left: 44%;
+      top: 40%;
+    }
+  }
+}
