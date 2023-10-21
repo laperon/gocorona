@@ -1,5 +1,7 @@
 @import url("./reset.less");
 @import url("./media.less");
+@import url("./_burger-menu.less");
+
 @tmp_url: '///Users/laperon/Documents/Html/GoCorona';
 
 .wrapper {
@@ -18,7 +20,7 @@
 }
 
 .header__bg {
-  background: #FAFBFD url("@{tmp_url}/assets/images/header-bg.svg") no-repeat;
+  background: #FAFBFD url("../images/header-bg.svg") no-repeat;
   background-position: right top;
 }
 
@@ -191,6 +193,37 @@ p {
       position: absolute;
       left: 44%;
       top: 40%;
+    }
+  }
+}
+
+.healthcare {
+  &__blocks {
+    display: flex;
+    flex-direction: row;
+
+    &-item {
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0px 4px 18px 0px rgba(88, 126, 236, 0.18);
+
+      h3 {
+        font-family: Rubik;
+        font-size: 16px;
+        color: #000000;
+        letter-spacing: 1.28px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.footer-links {
+  text-align: center;
+
+  a {
+    img {
+      padding: 10px;
     }
   }
 }
